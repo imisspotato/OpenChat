@@ -33,4 +33,4 @@ RUN composer install --no-plugins --no-scripts
 EXPOSE 8000
 
 # Start the Laravel development server
-CMD php artisan serve --host=0.0.0.0 --port=8000
+CMD php artisan serve --host=openchat-production-51d0.up.railway.app --port=8000
