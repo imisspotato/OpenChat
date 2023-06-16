@@ -27,7 +27,7 @@ RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local
 RUN composer install --no-plugins --no-scripts
 
 # Generate the Laravel application key
-RUN php artisan key:generate
+#RUN php artisan key:generate
 
 # Expose the container's port 8000 (default for `php artisan serve`)
 EXPOSE 8000
